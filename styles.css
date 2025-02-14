@@ -1,0 +1,441 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    line-height: 1.6;
+}
+
+h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+h3 {
+    font-size: 2rem;
+    margin-bottom: 15px;
+}
+
+p {
+    font-size: 1.1rem;
+    margin-bottom: 20px;
+}
+
+button {
+    padding: 12px 24px;
+    background-color: #ff6600;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #ff8533;
+}
+
+a {
+    color: #ff6600;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Header Section */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #333;
+    color: white;
+    font-size: 0.9rem;
+}
+
+header .logo img {
+    width: 100px;
+}
+
+header nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    gap: 15px;
+}
+
+header nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 0.9rem;
+}
+
+header nav ul li a:hover {
+    color: #ff6600;
+}
+
+/* Home Section */
+#home {
+    text-align: center;
+    padding: 80px 20px;
+    background: url('images/background 1.jpg') no-repeat center center/cover;
+    color: white;
+}
+
+#home .hero-content h1 {
+    font-size: 3rem;
+    margin-bottom: 15px;
+}
+
+#home .hero-content p {
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+}
+
+/* About Us Section */
+#about {
+    text-align: center;
+    padding: 60px 20px;
+    background-color: #bba0a0;
+}
+
+#about p {
+    font-size: 1.1rem;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+/* Services Section */
+#services {
+    padding: 60px 20px;
+    background-color: #d6ad8cda;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+#services p {
+    font-size: 1.2rem;
+    margin-bottom: 40px;
+    max-width: 900px;
+    margin: 0 auto 40px;
+}
+
+.service-item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px;
+    flex-direction: column;
+}
+
+.service-item img {
+    width: 80%;
+    max-width: 300px;
+    height: 200px;
+    object-fit: cover;
+    margin-bottom: 20px;
+}
+
+.service-item div {
+    max-width: 600px;
+    text-align: center;
+}
+
+.service-item h3 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+}
+
+.service-item p {
+    font-size: 1rem;
+}
+
+/* About Us Section */
+#about {
+    text-align: center;
+    padding: 60px 20px;
+    background-color: #bba0a0;
+}
+
+#about p {
+    font-size: 1.1rem;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+#about .about-image {
+    max-width: 100%;
+    height: auto;
+    margin: 20px 0;
+}
+
+#about .about-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+/* Menu Section */
+#menu {
+    padding: 60px 20px;
+    background-color: rgb(201, 199, 199);
+    text-align: center;
+}
+
+#menu p {
+    font-size: 1.2rem;
+    margin-bottom: 40px;
+}
+
+.menu-item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px;
+    flex-direction: column;
+}
+
+.menu-item img {
+    width: 80%;
+    max-width: 250px;
+    height: 250px;
+    object-fit: cover;
+    margin-bottom: 20px;
+}
+
+.menu-item div {
+    max-width: 500px;
+    text-align: center;
+}
+
+.menu-item h3 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+}
+
+.menu-item p {
+    font-size: 1rem;
+}
+
+/* Contact Section */
+#contact {
+    padding: 40px 20px;
+    background-color: #c7d4e4;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+#contact h2 {
+    font-size: 2rem;
+    margin-bottom: 15px;
+}
+
+#contact .form-group {
+    margin-bottom: 15px;
+    text-align: left;
+}
+
+#contact .form-group label {
+    font-size: 0.9rem;
+    font-weight: bold;
+}
+
+#contact .form-group input,
+#contact .form-group textarea {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #5c5656;
+    border-radius: 5px;
+    font-size: 0.9rem;
+}
+
+#contact .form-group textarea {
+    resize: vertical;
+    height: 100px;
+}
+
+#contact .contact-info p {
+    font-size: 1rem;
+    margin-top: 10px;
+}
+
+/* Sign In Section */
+.auth#sign-in {
+    padding: 40px 20px;
+    background-color: #ac8181;
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+.auth h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+.auth form input {
+    width: 100%;
+    padding: 12px;
+    margin: 10px 0;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.auth form button {
+    width: 100%;
+    padding: 12px;
+    background-color: #ff6600;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+
+/* Sign Up Section */
+.auth#sign-up {
+    padding: 40px 20px;
+    background-color: #ccbcbc;
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+/* Footer Section */
+footer {
+    background-color: #333;
+    color: white;
+    padding: 30px 20px;
+    text-align: center;
+}
+
+footer .social-media {
+    margin-top: 15px;
+}
+
+footer .social-media a {
+    margin: 0 10px;
+}
+
+footer .social-media img {
+    width: 30px;
+    height: 30px;
+}
+
+/* Media Queries for Mobile and Tablet */
+@media screen and (max-width: 768px) {
+    /* Header */
+    header {
+        padding: 10px 15px;
+    }
+
+    header nav ul {
+        display: block;
+        text-align: center;
+    }
+
+    header nav ul li {
+        margin: 10px 0;
+    }
+
+    /* Home Section */
+    #home {
+        padding: 60px 20px;
+    }
+
+    #home .hero-content h1 {
+        font-size: 2.5rem;
+    }
+
+    #home .hero-content p {
+        font-size: 1.2rem;
+    }
+
+    /* About Us Section */
+    #about {
+        padding: 40px 20px;
+    }
+
+    #about p {
+        font-size: 1rem;
+    }
+
+    /* Services Section */
+    #services {
+        padding: 40px 20px;
+    }
+
+    /* Menu Section */
+    #menu {
+        padding: 40px 20px;
+    }
+
+    .menu-item {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    /* Contact Section */
+    #contact {
+        padding: 30px 15px;
+        max-width: 100%;
+    }
+
+    /* Sign In and Sign Up Sections */
+    .auth {
+        padding: 30px 15px;
+    }
+
+    /* Footer */
+    footer {
+        padding: 20px 15px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    /* Adjustments for smaller screens */
+    h2 {
+        font-size: 1.8rem;
+    }
+
+    h3 {
+        font-size: 1.5rem;
+    }
+
+    p {
+        font-size: 1rem;
+    }
+
+    button {
+        font-size: 0.9rem;
+    }
+
+    /* Contact Form */
+    #contact .form-group input,
+    #contact .form-group textarea {
+        font-size: 0.8rem;
+    }
+
+    /* Menu and Services Images */
+    .service-item img,
+    .menu-item img {
+        width: 100%;
+        max-width: 300px;
+        margin-bottom: 15px;
+    }
+
+    .service-item div,
+    .menu-item div {
+        text-align: center;
+    }
+
+    .service-item h3,
+    .menu-item h3 {
+        font-size: 1.6rem;
+    }
+}
